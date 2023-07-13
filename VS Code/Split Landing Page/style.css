@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vw;
+    border: 2px solid black;
+}
+
+
+.psContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url("https://img.chip.com.tr/rcman/Cw1280h720q95gm/storage/files/images/2022/11/08/sony-xboxu-tahtindan-indirmek-icin-geliyor-2BPo.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+.psContent {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: +1;
+    position: absolute;
+    top: 15%;
+
+}
+
+.psTr {
+    position: absolute;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+
+}
+
+.hoverPs .psContainer {
+    width: 75%;
+}
+.hoverPs .xboxContainer {
+    width: 25%;
+}
+
+.hoverXbox .xboxContainer {
+    width: 75%;
+}
+.hoverXbox .psContainer {
+    width: 25%;
+}
+
+
+
+
+.xboxContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url("https://cdn.dsmcdn.com/ty13/product/media/images/20200928/15/12359623/88000914/1/1_org_zoom.jpg");
+    background-repeat: no-repeat;
+    background-size: 125% 100%;
+    background-position-y: -350px;
+    background-position-x: center;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+.xboxContent {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: +1;
+    position: absolute;
+    top: 15%;
+
+}
+
+.xboxTr {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+
+}
+
